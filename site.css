@@ -1,0 +1,70 @@
+
+
+h1 {
+    color: brown
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+.smokey-woman
+{
+    max-width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 650px;
+}
+.namething
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+    display: flex;
+}
+
+
+.firstname {
+    text-align: center;
+}
+
+.lastname {
+    text-align: center;
+} 
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  display:block;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
