@@ -1,122 +1,135 @@
-
-
 h1 {
-    color: brown
+  color: brown;
 }
 
 body {
-    background-color: black;
-    color: aliceblue;
+  background-color: black;
+  color: aliceblue;
 }
 
 .pfp {
-
 }
 
-.smokey-woman
-{
-    max-width: 100%;
+.pfp img {
+  width: 70px;
+}
+
+.smokey-woman {
+  max-width: 100%;
 }
 
 .header {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 650px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 650px;
 }
-.namething
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.namething {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
 
-
 .firstname {
-    text-align: center;
+  text-align: center;
 }
 
 .lastname {
-    text-align: center;
-} 
+  text-align: center;
+}
 
 .cards {
-    text-align: center;
-    
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.paragraph,.paragraph2 {
-    display: flex;
-    flex-direction: row;
+.para1,
+.para2,
+.para3,
+.para4,
+.para5,
+.para6 {
+  flex: 0 1 24%;
+  border: 1px white solid;
+  margin: 15px auto;
+  /* Rounds the card edges */
+  border-radius: 5px;
+
+  /* 1st arg: left-right; 2nd arg: up-down; 3rd arg: blur; 4th: color */
+  box-shadow: 5px 5px 10px rgba(79, 191, 211, 0.507);
 }
 
-.para1,.para2,.para3,.para4,.para5,.para6 {
-    flex: 0 1 24%;
+.para2,
+.para5 {
+  color: lightgrey;
 }
 
-.para2,.para5 {
-    color: lightgrey
-
-}
-
-.para3, .para6 {
-    color: gray
+.para3,
+.para6 {
+  color: gray;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
 
-  li {
-    display: inline;
-    float: left;
-    
-  }
+li {
+  display: inline;
+  float: left;
+}
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  /* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
-  }
-
+  background-color: #111;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
 body {
   background: #111;
 }
 .hidden {
-  opacity:0;
+  opacity: 0;
 }
 .console-container {
- 
-  font-family:Khula;
-  font-size:4em;
-  text-align:center;
-  display:block;
-  color:white;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
+  font-family: Khula;
+  font-size: 4em;
+  text-align: center;
+  display: block;
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .console-underscore {
-   display:inline-block;
-  position:relative;
-  top:-0.14em;
-  left:10px;
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 10px;
 }
 
+@media (min-width: 600px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
