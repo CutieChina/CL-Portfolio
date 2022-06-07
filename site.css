@@ -41,21 +41,45 @@ body {
   text-align: center;
 }
 
-.cards {
-  text-align: center;
+.card-holder {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.para1,
-.para2,
-.para3,
-.para4,
-.para5,
-.para6 {
+.cards {
+  display: inline;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  border: 1px white solid;
+  flex: 0 1 300px;
+   /* Rounds the card edges */
+  border-radius: 5px;
+
+   /* 1st arg: left-right; 2nd arg: up-down; 3rd arg: blur; 4th: color */
+  box-shadow: 5px 5px 10px rgba(79, 191, 211, 0.507);
+}
+
+.paragraph {
   flex: 0 1 24%;
   border: 1px white solid;
   margin: 15px auto;
+  padding: 20px;
+  /* Rounds the card edges */
+  border-radius: 5px;
+
+  /* 1st arg: left-right; 2nd arg: up-down; 3rd arg: blur; 4th: color */
+  box-shadow: 5px 5px 10px rgba(79, 191, 211, 0.507);
+}
+
+.paragraph2 {
+  flex: 0 1 24%;
+  border: 1px white solid;
+  margin: 15px auto;
+  padding: 20px;
   /* Rounds the card edges */
   border-radius: 5px;
 
@@ -71,6 +95,10 @@ body {
 .para3,
 .para6 {
   color: gray;
+}
+
+.para1,.para2,.para3 {
+  flex: 0 1 24%;
 }
 
 ul {
@@ -127,9 +155,8 @@ body {
   left: 10px;
 }
 
-@media (min-width: 600px) {
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+@media (max-width: 600px) {
+  .card-holder {
+    max-width: 600px;
   }
 }
