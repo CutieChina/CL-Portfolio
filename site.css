@@ -7,7 +7,8 @@ body {
   color: aliceblue;
 }
 
-.pfp {
+a {
+  color: azure;
 }
 
 .pfp img {
@@ -56,11 +57,12 @@ body {
   text-align: center;
   border: 1px white solid;
   flex: 0 1 300px;
+  background-image: linear-gradient(grey,black,grey);
    /* Rounds the card edges */
   border-radius: 5px;
 
    /* 1st arg: left-right; 2nd arg: up-down; 3rd arg: blur; 4th: color */
-  box-shadow: 5px 5px 10px rgba(79, 191, 211, 0.507);
+  box-shadow: 8px 8px 10px rgba(103, 213, 243, 0.775);
 }
 
 .paragraph {
@@ -70,9 +72,6 @@ body {
   padding: 20px;
   /* Rounds the card edges */
   border-radius: 5px;
-
-  /* 1st arg: left-right; 2nd arg: up-down; 3rd arg: blur; 4th: color */
-  box-shadow: 5px 5px 10px rgba(79, 191, 211, 0.507);
 }
 
 .paragraph2 {
@@ -82,9 +81,6 @@ body {
   padding: 20px;
   /* Rounds the card edges */
   border-radius: 5px;
-
-  /* 1st arg: left-right; 2nd arg: up-down; 3rd arg: blur; 4th: color */
-  box-shadow: 5px 5px 10px rgba(79, 191, 211, 0.507);
 }
 
 .para2,
@@ -155,8 +151,27 @@ body {
   left: 10px;
 }
 
-@media (max-width: 600px) {
-  .card-holder {
-    max-width: 600px;
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  .console-container {
+      font-size: 2em;
   }
-}
+ }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+
+ }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+
+ }
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+
+ }
