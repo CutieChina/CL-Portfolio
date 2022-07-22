@@ -178,12 +178,17 @@ body {
 
  @media screen and (prefers-color-scheme: dark)
  {
-  body {
+  body{
     color: black;
     background-color: white;
   }
+
+  .cards{
+    background-image: linear-gradient(white,pink,white);
+    box-shadow: 8px 8px 10px rgba(234, 115, 115, 0.771);
+  }
+
  }
 
-  
- }
+
 
