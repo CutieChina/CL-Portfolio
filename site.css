@@ -156,7 +156,7 @@ body {
   .console-container {
       font-size: 2em;
   }
- }
+} 
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
@@ -175,3 +175,15 @@ body {
 
 
  }
+
+ @media screen and (prefers-color-scheme: dark)
+ {
+  body {
+    color: black;
+    background-color: white;
+  }
+ }
+
+  
+ }
+
