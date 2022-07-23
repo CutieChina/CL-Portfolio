@@ -1,22 +1,11 @@
-h1 {
-    color: brown;
-  }
-  
+
   body {
     background-color: black;
     color: aliceblue;
   }
   
-  a {
-    color: azure;
-  }
-  
   .pfp img {
     width: 70px;
-  }
-  
-  .smokey-woman {
-    max-width: 100%;
   }
   
   .header {
@@ -24,77 +13,6 @@ h1 {
     margin-right: auto;
     margin-left: auto;
     max-width: 650px;
-  }
-  .namething {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  .container {
-    display: flex;
-  }
-  
-  .firstname {
-    text-align: center;
-  }
-  
-  .lastname {
-    text-align: center;
-  }
-  
-  .card-holder {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .cards {
-    display: inline;
-    margin: 20px;
-    padding: 10px;
-    text-align: center;
-    border: 1px white solid;
-    flex: 0 1 300px;
-    background-image: linear-gradient(grey,black,grey);
-     /* Rounds the card edges */
-    border-radius: 5px;
-  
-     /* 1st arg: left-right; 2nd arg: up-down; 3rd arg: blur; 4th: color */
-    box-shadow: 8px 8px 10px rgba(103, 213, 243, 0.775);
-  }
-  
-  .paragraph {
-    flex: 0 1 24%;
-    border: 1px white solid;
-    margin: 15px auto;
-    padding: 20px;
-    /* Rounds the card edges */
-    border-radius: 5px;
-  }
-  
-  .paragraph2 {
-    flex: 0 1 24%;
-    border: 1px white solid;
-    margin: 15px auto;
-    padding: 20px;
-    /* Rounds the card edges */
-    border-radius: 5px;
-  }
-  
-  .para2,
-  .para5 {
-    color: lightgrey;
-  }
-  
-  .para3,
-  .para6 {
-    color: gray;
-  }
-  
-  .para1,.para2,.para3 {
-    flex: 0 1 24%;
   }
   
   ul {
@@ -133,23 +51,6 @@ h1 {
   .hidden {
     opacity: 0;
   }
-  .console-container {
-    font-family: Khula;
-    font-size: 4em;
-    text-align: center;
-    display: block;
-    color: white;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  .console-underscore {
-    display: inline-block;
-    position: relative;
-    top: -0.14em;
-    left: 10px;
-  }
   
   /* Landscape phones and down */
   @media (max-width: 480px) { 
@@ -175,4 +76,15 @@ h1 {
   
   
    }
+
+   @media screen and (prefers-color-scheme: dark)
+ {
+  body{
+    color: black;
+    background-color: white;
+  }
   
+  ul {
+    background-color: pink;
+  }
+ }
