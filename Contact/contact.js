@@ -1,6 +1,6 @@
 // function([string1, string2],target id,[color1,color2])   
 // French Translation: My Portfolio, Styled with Class, Made with love. 
-consoleText(['Mon Portfolio', 'Stylisé Avec Classe', 'Fait Avec Amour.'], 'text',['white','white','white']);
+consoleText(['Feedback', 'Contact Us', 'Your Opinion Matters'], 'text',['tan','tan','tan']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
