@@ -38,6 +38,11 @@
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  .card_image {
+    display: flex;
+    flex-direction: center;
+  }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
@@ -53,11 +58,20 @@
   }
   
   /* Landscape phones and down */
-  @media (max-width: 480px) { 
-    .console-container {
-        font-size: 2em;
-    }
-  } 
+@media (max-width: 480px) { 
+  .console-container {
+      font-size: 2em;
+  }
+
+  nav > ul {
+    flex-direction: column;
+  }
+
+  .pfp > img {
+    height: 120px;
+    width: 120px;
+  }
+} 
   
   /* Landscape phone to portrait tablet */
   @media (max-width: 767px) { 

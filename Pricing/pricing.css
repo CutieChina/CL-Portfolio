@@ -129,10 +129,20 @@
   }
 
   /* Landscape phones and down */
-  @media (max-width: 480px) { 
-    .console-container {
-        font-size: 2em;
-    }
+@media (max-width: 480px) { 
+  .console-container {
+      font-size: 2em;
+  }
+
+  nav > ul {
+    flex-direction: column;
+  }
+
+  .pfp > img {
+    height: 120px;
+    width: 120px;
+  }
+} 
 
     .header {
       text-align: center;
@@ -140,7 +150,7 @@
       margin-left: auto;
       max-width: 650px;
     }
-   }
+   
   
   /* Landscape phone to portrait tablet */
   @media (max-width: 767px) { 
