@@ -17,6 +17,12 @@ I want to make this website interactive and user-friendly; easy to navigate and 
 
 The website has 2 media queries. One media query is the formatting of the website; for example, if the the user is on a tablet, the website will adjust itself to fit the the tablet so the user will not have any complications maneuvering around the website. Same thing happens when the user is looking on a phone. The other media query is dark mode. When your laptop is on dark mode/dark theme, the website background will change.
 
+It also has a pricg page where the user is able to select which deal they would like to purchase.
+
+On the contact page, the user is able to give feedback or even ask more questions if they want to.
+
+The about page is so the user can be more familiar with the creator and what the website has to office.
+
 When desktop is on regular desktop mode:
 <img src="img\Light Theme Page color.png" height="60" width="60" >
 
