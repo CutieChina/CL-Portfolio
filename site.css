@@ -3,12 +3,12 @@ h1 {
 }
 
 body {
-  background-color: black;
-  color: aliceblue;
+  /* background-color: black; */
+  color: black;
 }
 
 a {
-  color: azure;
+  color: black;
 }
 
 .pfp img {
@@ -57,12 +57,12 @@ a {
   text-align: center;
   border: 1px white solid;
   flex: 0 1 300px;
-  background-image: linear-gradient(grey,black,grey);
+  background-image: linear-gradient(white,tan,white);
    /* Rounds the card edges */
   border-radius: 5px;
 
    /* 1st arg: left-right; 2nd arg: up-down; 3rd arg: blur; 4th: color */
-  box-shadow: 8px 8px 10px rgba(103, 213, 243, 0.775);
+   box-shadow: 8px 8px 10px rgba(50, 25, 25, 0.762);
 }
 
 .paragraph {
@@ -102,7 +102,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: tan;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -115,7 +115,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -123,13 +123,14 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
+  color: darkgray;
   background-color: #111;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
-body {
+/* body {
   background: #111;
-}
+} */
 .hidden {
   opacity: 0;
 }
@@ -190,22 +191,18 @@ body {
  @media screen and (prefers-color-scheme: dark)
  {
   body{
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
   }
 
   .cards{
-    background-image: linear-gradient(white,pink,white);
-    box-shadow: 8px 8px 10px rgba(234, 115, 115, 0.771);
+    background-image: linear-gradient(grey,black,grey);
+    box-shadow: 8px 8px 10px rgba(103, 213, 243, 0.775);
   }
 
   ul {
-    background-color: pink;
+    background-color: #333;
   }
-
-.console {
-  color: pink;
-}
 
  }
 

@@ -1,8 +1,8 @@
 
-  body {
+  /* body {
     background-color: black;
     color: aliceblue;
-  }
+  } */
   
   .pfp img {
     width: 70px;
@@ -50,9 +50,9 @@
   }
   
   @import url(https://fonts.googleapis.com/css?family=Khula:700);
-  body {
+  /* body {
     background: #111;
-  }
+  } */
   .hidden {
     opacity: 0;
   }
@@ -94,11 +94,11 @@
    @media screen and (prefers-color-scheme: dark)
  {
   body{
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
   }
   
   ul {
-    background-color: pink;
+    background-color: #333;
   }
  }

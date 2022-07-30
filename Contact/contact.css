@@ -3,8 +3,8 @@ h1 {
   }
   
   body {
-    background-color: black;
-    color: aliceblue;
+    /* background-color: black; */
+    color: black;
   }
   
   a {
@@ -98,7 +98,7 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #CC6666;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -119,13 +119,14 @@ h1 {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: pink;
+    color: darkgray;
   }
   
   @import url(https://fonts.googleapis.com/css?family=Khula:700);
-  body {
+  /* body {
     background: #111;
-  }
+  } */
   .hidden {
     opacity: 0;
   }
@@ -134,7 +135,7 @@ h1 {
     font-size: 4em;
     text-align: center;
     display: block;
-    color: white;
+    color: goldenrod;
     top: 0;
     bottom: 0;
     left: 0;
@@ -150,11 +151,11 @@ h1 {
 
   @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-  body { background:rgb(30,30,40); }
+  /* body { background:rgb(30,30,40); } */
   form { max-width:420px; margin:50px auto; }
   
   .feedback-input {
-    color: white;
+    color: goldenrod;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
@@ -232,22 +233,22 @@ h1 {
    }
   
    @media screen and (prefers-color-scheme: dark)
- {
-  body{
-    color: black;
-    background-color: white;
-  }
-
-  .cards{
-    background-image: linear-gradient(white,pink,white);
-    box-shadow: 8px 8px 10px rgba(234, 115, 115, 0.771);
-  }
-
-  ul {
-    background-color: pink;
-  }
-
-  .feedback-input{
+   {
+    body{
+      color: white;
+      background-color: black;
+    }
+  
+    .cards{
+      background-image: linear-gradient(grey,black,grey);
+      box-shadow: 8px 8px 10px rgba(103, 213, 243, 0.775);
+    }
+  
+    ul {
+      background-color: #333;
+    }
+    
+  /* .feedback-input{
     color: goldenrod ;
-  }
+  } */
  }

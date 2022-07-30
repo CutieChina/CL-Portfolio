@@ -1,6 +1,6 @@
     body {
-    background-color: black;
-    color: tan;
+    /* background-color: white; */
+    color: white;
   }
   
   a {
@@ -25,7 +25,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: tan;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -50,9 +50,9 @@
   }
   
   @import url(https://fonts.googleapis.com/css?family=Khula:700);
-  body {
+  /* body {
     background: #111;
-  }
+  } */
   .hidden {
     opacity: 0;
   }
@@ -173,17 +173,12 @@
    @media screen and (prefers-color-scheme: dark)
  {
   body{
-    color: black;
-    background-color: white;
-  }
-
-  .cards{
-    background-image: linear-gradient(white,pink,white);
-    box-shadow: 8px 8px 10px rgba(234, 115, 115, 0.771);
+    color: white;
+    background-color: black;
   }
 
   ul {
-    background-color: pink;
+    background-color: #333;
   }
  }
   
